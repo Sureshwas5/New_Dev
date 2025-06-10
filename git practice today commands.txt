@@ -1,0 +1,24 @@
+  git clone https://github.com/Sureshwas5/New_Dev.git
+  
+  cd New_Dev/
+  
+  touch file1
+  ls
+  git status
+  git add file1
+  git status
+  git commit -m "file1 added"
+  touch file2
+  git add file2
+  
+  git rm --cached file2
+  git status
+  ls
+  rm -rf file2
+  ls
+  git log
+  
+  git remote -v
+  git remote add demo https://github.com/Sureshwas5/New_Dev.git
+  git remote -v
+  git push demo main
